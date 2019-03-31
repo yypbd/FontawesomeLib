@@ -3,6 +3,7 @@ package com.yypbd.fontawesomelibsample;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -13,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonShowSolid;
     private Button buttonShowRegular;
     private Button buttonShowBrand;
+    private Button buttonTest;
+    private TextView textViewTest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
         initUI();
         initListener();
-
-        // FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "ad", textViewTest);
     }
 
     private void initListener() {
@@ -54,11 +55,24 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        buttonTest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String text = FontawesomeLib.getInstance().getText(FontawesomeLib.FontType.TYPE_SOLID, "adjust");
+                Log.d("tag", text);
+
+                FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "adjust", buttonTest);
+                FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "atlas", textViewTest);
+            }
+        });
     }
 
     private void initUI() {
         buttonShowSolid = findViewById(R.id.buttonShowSolid);
         buttonShowRegular = findViewById(R.id.buttonShowRegular);
         buttonShowBrand = findViewById(R.id.buttonShowBrand);
+        buttonTest = findViewById(R.id.buttonTest);
+        textViewTest = findViewById(R.id.textViewTest);
     }
 }

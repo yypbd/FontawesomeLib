@@ -36,6 +36,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Show Brand Icons" />
+
+        <Button
+            android:id="@+id/buttonTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Button"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textViewTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="40dp" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
