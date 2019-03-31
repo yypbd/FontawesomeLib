@@ -12,13 +12,11 @@ String text = FontawesomeLib.getInstance().getText(FontawesomeLib.FontType.TYPE_
 
 ```java
 // To apply the fontawesome icon to a TextView or Button
-FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "adjust", buttonSample);
-FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "atlas", textViewSample);
+FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "adjust", buttonTest);
+FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "atlas", textViewTest);
 ```
 
 ## Installation
-
-Provide code examples and explanations of how to get the project.
 
 1. Go to [fontawesome](https://fontawesome.com/download) and download "Free for Web".
 2. Copy *.ttf to Android Project's /src/main/assets/fonts folder.
