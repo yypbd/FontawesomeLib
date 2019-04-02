@@ -1608,15 +1608,41 @@ public class FontawesomeLib {
         textView.setText(text);
     }
 
-    public HashMap<String, Character> getMapSolid() {
-        return mMapSolid;
+//    public HashMap<String, Character> getMapSolid() {
+//        return mMapSolid;
+//    }
+//
+//    public HashMap<String, Character> getMapRegular() {
+//        return mMapRegular;
+//    }
+//
+//    public HashMap<String, Character> getMapBrand() {
+//        return mMapBrand;
+//    }
+
+    public HashMap<String, Character> getCharMap(FontType fontType) {
+        switch (fontType) {
+            case TYPE_SOLID:
+                return mMapSolid;
+            case TYPE_REGULAR:
+                return mMapRegular;
+            case TYPE_BRAND:
+                return mMapBrand;
+        }
+
+        return null;
     }
 
-    public HashMap<String, Character> getMapRegular() {
-        return mMapRegular;
-    }
+    public Typeface getTypeface(FontType fontType) {
+        switch (fontType) {
+            case TYPE_SOLID:
+                return mTypefaceSolid;
+            case TYPE_REGULAR:
+                return mTypefaceRegular;
+            case TYPE_BRAND:
+                return mTypefaceBrand;
+        }
 
-    public HashMap<String, Character> getMapBrand() {
-        return mMapBrand;
+        return null;
     }
 }
