@@ -23,27 +23,22 @@ public class IconListActivity extends AppCompatActivity {
         recyclerViewIcon = findViewById(R.id.recyclerViewIcon);
 
         ArrayList<IconItem> iconList = new ArrayList<>();
-        FontawesomeLib.FontType fontType;
 
         Intent intent = getIntent();
         int type = intent.getIntExtra("font_type", 0);
+        FontawesomeLib.FontType fontType;
         if (type == 0) {
             fontType = FontawesomeLib.FontType.TYPE_SOLID;
-            for (String key : FontawesomeLib.getInstance().getMapSolid().keySet()) {
-                iconList.add(new IconItem(key));
-            }
         }
         else if (type == 1) {
             fontType = FontawesomeLib.FontType.TYPE_REGULAR;
-            for (String key : FontawesomeLib.getInstance().getMapRegular().keySet()) {
-                iconList.add(new IconItem(key));
-            }
         }
         else {
             fontType = FontawesomeLib.FontType.TYPE_BRAND;
-            for (String key : FontawesomeLib.getInstance().getMapBrand().keySet()) {
-                iconList.add(new IconItem(key));
-            }
+        }
+
+        for (String key : FontawesomeLib.getInstance().getCharMap(fontType).keySet()) {
+            iconList.add(new IconItem(key));
         }
 
         layoutManager = new LinearLayoutManager(this);
