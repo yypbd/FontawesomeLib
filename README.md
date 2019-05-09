@@ -7,6 +7,13 @@ It is based on Fontawesome 5.8.1
 1. Easily get the typeface and text of fontawesome by name of cheatsheet.
 2. Easily apply icons to Button, TextView.
 
+## Sample Screenshot
+
+| SampleApp | Icon List | Draw to Button, ImageView |
+|----------|-------------|------|
+| ![Sample App - Draw to ImageView](https://raw.githubusercontent.com/yypbd/FontawesomeLib/master/screenshot/scr_sample_1.png) | ![Sample App - Icon List](https://raw.githubusercontent.com/yypbd/FontawesomeLib/master/screenshot/scr_sample_2.png) | ![Sample App - Draw to Button, ImageView](https://raw.githubusercontent.com/yypbd/FontawesomeLib/master/screenshot/scr_sample_3.png) |
+
+
 ## Code Example
 
 ```java
