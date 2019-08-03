@@ -2,10 +2,20 @@
 
 FontawesomeLib is a library that makes it easy to use Fontawesome on Android.
 
-It is based on Fontawesome 5.8.1
+It is based on Fontawesome 5
 
 1. Easily get the typeface and text of fontawesome by name of cheatsheet.
 2. Easily apply icons to Button, TextView.
+
+
+## Supported version
+
+| Fontawesome | This library |
+|-----------|-----------|
+| 5.10.1 | 1.0.1 |
+| 5.8.1 | 1.0.0 |
+| 5.8.1 | 0.0.1 |
+
 
 ## Sample Screenshot
 
@@ -36,13 +46,15 @@ FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "atlas"
 2. Copy *.ttf to Android Project's /src/main/assets/fonts folder.
 3. Add to build.gradle.
 ```gradle
-implementation 'com.yypbd.fontawesomelib:fontawesomelib:1.0.0'
+implementation 'com.yypbd.fontawesomelib:fontawesomelib:1.x.x'
 ```
 4. Initialize library.
 ```
 FontawesomeLib.getInstance().init(getAssets(), "fonts/fa-solid-900.ttf", "fonts/fa-regular-400.ttf", "fonts/fa-brands-400.ttf");
 ```
 5. View the sample app or code example.
+
+
 
 ## Reference
 
