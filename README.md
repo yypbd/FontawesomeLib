@@ -51,7 +51,7 @@ FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "atlas"
 ## Installation
 
 1. Go to [fontawesome](https://fontawesome.com/download) and download "Free for Web".
-2. Copy *.ttf to Android Project's /src/main/assets/fonts folder.
+2. Copy webfonts/*.ttf to Android Project's /src/main/assets/fonts folder.
 3. Add to build.gradle.
 ```gradle
 implementation 'com.yypbd.fontawesomelib:fontawesomelib:1.x.x'
