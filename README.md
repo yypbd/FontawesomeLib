@@ -10,11 +10,12 @@ It is based on Fontawesome 5
 
 ## Supported version
 
-| Fontawesome | This library |
+| [Fontawesome](https://fontawesome.com/download) | This library |
 |-----------|-----------|
-| [5.10.1](https://fontawesome.com/download) | 1.0.1 |
-| [5.8.1](https://fontawesome.com/download) | 1.0.0 |
-| [5.8.1](https://fontawesome.com/download) | 0.0.1 |
+| 5.13.0 | 1.0.2 |
+| 5.10.1 | 1.0.1 |
+| 5.8.1 | 1.0.0 |
+| 5.8.1 | 0.0.1 |
 
 
 ## Sample Screenshot
@@ -43,9 +44,25 @@ FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "atlas"
 ```
 
 ```kotlin
+// Initialize
+FontawesomeLib.getInstance().init(assets, "fonts/fa-solid-900.ttf", "fonts/fa-regular-400.ttf", "fonts/fa-brands-400.ttf")
 
+// To get fontawesome icon text
+val text = FontawesomeLib.getInstance().getText(FontawesomeLib.FontType.TYPE_SOLID, "adjust")
+// -> text is 0xf042
 
+// To get typeface
+val tf = FontawesomeLib.getInstance().getTypeface(FontawesomeLib.FontType.TYPE_SOLID)
+
+// To apply the fontawesome icon to a TextView or Button
+FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "adjust", buttonTest)
+FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "atlas", textViewTest)
 ```
+
+
+## Sample
+
+[FontawesomeLib Sample](https://github.com/yypbd/FontawesomeLibSample)
 
 
 ## Installation
