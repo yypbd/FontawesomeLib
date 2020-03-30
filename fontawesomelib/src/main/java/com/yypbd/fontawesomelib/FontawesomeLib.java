@@ -98,6 +98,7 @@ public class FontawesomeLib {
         mMapSolid.put("backspace", (char) 0xf55a);
         mMapSolid.put("backward", (char) 0xf04a);
         mMapSolid.put("bacon", (char) 0xf7e5);
+        mMapSolid.put("bahai", (char) 0xf666);
         mMapSolid.put("balance-scale", (char) 0xf24e);
         mMapSolid.put("balance-scale-left", (char) 0xf515);
         mMapSolid.put("balance-scale-right", (char) 0xf516);
@@ -145,6 +146,7 @@ public class FontawesomeLib {
         mMapSolid.put("bowling-ball", (char) 0xf436);
         mMapSolid.put("box", (char) 0xf466);
         mMapSolid.put("box-open", (char) 0xf49e);
+        mMapSolid.put("box-tissue", (char) 0xf95b);
         mMapSolid.put("boxes", (char) 0xf468);
         mMapSolid.put("braille", (char) 0xf2a1);
         mMapSolid.put("brain", (char) 0xf5dc);
@@ -182,6 +184,7 @@ public class FontawesomeLib {
         mMapSolid.put("car-battery", (char) 0xf5df);
         mMapSolid.put("car-crash", (char) 0xf5e1);
         mMapSolid.put("car-side", (char) 0xf5e4);
+        mMapSolid.put("caravan", (char) 0xf8ff);
         mMapSolid.put("caret-down", (char) 0xf0d7);
         mMapSolid.put("caret-left", (char) 0xf0d9);
         mMapSolid.put("caret-right", (char) 0xf0da);
@@ -266,6 +269,7 @@ public class FontawesomeLib {
         mMapSolid.put("compact-disc", (char) 0xf51f);
         mMapSolid.put("compass", (char) 0xf14e);
         mMapSolid.put("compress", (char) 0xf066);
+        mMapSolid.put("compress-alt", (char) 0xf422);
         mMapSolid.put("compress-arrows-alt", (char) 0xf78c);
         mMapSolid.put("concierge-bell", (char) 0xf562);
         mMapSolid.put("cookie", (char) 0xf563);
@@ -301,6 +305,7 @@ public class FontawesomeLib {
         mMapSolid.put("dice-two", (char) 0xf528);
         mMapSolid.put("digital-tachograph", (char) 0xf566);
         mMapSolid.put("directions", (char) 0xf5eb);
+        mMapSolid.put("disease", (char) 0xf7fa);
         mMapSolid.put("divide", (char) 0xf529);
         mMapSolid.put("dizzy", (char) 0xf567);
         mMapSolid.put("dna", (char) 0xf471);
@@ -342,6 +347,7 @@ public class FontawesomeLib {
         mMapSolid.put("exclamation-circle", (char) 0xf06a);
         mMapSolid.put("exclamation-triangle", (char) 0xf071);
         mMapSolid.put("expand", (char) 0xf065);
+        mMapSolid.put("expand-alt", (char) 0xf424);
         mMapSolid.put("expand-arrows-alt", (char) 0xf31e);
         mMapSolid.put("external-link-alt", (char) 0xf35d);
         mMapSolid.put("external-link-square-alt", (char) 0xf360);
@@ -351,6 +357,7 @@ public class FontawesomeLib {
         mMapSolid.put("fan", (char) 0xf863);
         mMapSolid.put("fast-backward", (char) 0xf049);
         mMapSolid.put("fast-forward", (char) 0xf050);
+        mMapSolid.put("faucet", (char) 0xf905);
         mMapSolid.put("fax", (char) 0xf1ac);
         mMapSolid.put("feather", (char) 0xf52d);
         mMapSolid.put("feather-alt", (char) 0xf56b);
@@ -455,7 +462,9 @@ public class FontawesomeLib {
         mMapSolid.put("hamsa", (char) 0xf665);
         mMapSolid.put("hand-holding", (char) 0xf4bd);
         mMapSolid.put("hand-holding-heart", (char) 0xf4be);
+        mMapSolid.put("hand-holding-medical", (char) 0xf95c);
         mMapSolid.put("hand-holding-usd", (char) 0xf4c0);
+        mMapSolid.put("hand-holding-water", (char) 0xf4c1);
         mMapSolid.put("hand-lizard", (char) 0xf258);
         mMapSolid.put("hand-middle-finger", (char) 0xf806);
         mMapSolid.put("hand-paper", (char) 0xf256);
@@ -467,16 +476,25 @@ public class FontawesomeLib {
         mMapSolid.put("hand-pointer", (char) 0xf25a);
         mMapSolid.put("hand-rock", (char) 0xf255);
         mMapSolid.put("hand-scissors", (char) 0xf257);
+        mMapSolid.put("hand-sparkles", (char) 0xf95d);
         mMapSolid.put("hand-spock", (char) 0xf259);
         mMapSolid.put("hands", (char) 0xf4c2);
         mMapSolid.put("hands-helping", (char) 0xf4c4);
+        mMapSolid.put("hands-wash", (char) 0xf95e);
         mMapSolid.put("handshake", (char) 0xf2b5);
+        mMapSolid.put("handshake-alt-slash", (char) 0xf95f);
+        mMapSolid.put("handshake-slash", (char) 0xf960);
         mMapSolid.put("hanukiah", (char) 0xf6e6);
         mMapSolid.put("hard-hat", (char) 0xf807);
         mMapSolid.put("hashtag", (char) 0xf292);
+        mMapSolid.put("hat-cowboy", (char) 0xf8c0);
+        mMapSolid.put("hat-cowboy-side", (char) 0xf8c1);
         mMapSolid.put("hat-wizard", (char) 0xf6e8);
-        mMapSolid.put("haykal", (char) 0xf666);
         mMapSolid.put("hdd", (char) 0xf0a0);
+        mMapSolid.put("head-side-cough", (char) 0xf961);
+        mMapSolid.put("head-side-cough-slash", (char) 0xf962);
+        mMapSolid.put("head-side-mask", (char) 0xf963);
+        mMapSolid.put("head-side-virus", (char) 0xf964);
         mMapSolid.put("heading", (char) 0xf1dc);
         mMapSolid.put("headphones", (char) 0xf025);
         mMapSolid.put("headphones-alt", (char) 0xf58f);
@@ -497,6 +515,7 @@ public class FontawesomeLib {
         mMapSolid.put("hospital", (char) 0xf0f8);
         mMapSolid.put("hospital-alt", (char) 0xf47d);
         mMapSolid.put("hospital-symbol", (char) 0xf47e);
+        mMapSolid.put("hospital-user", (char) 0xf80d);
         mMapSolid.put("hot-tub", (char) 0xf593);
         mMapSolid.put("hotdog", (char) 0xf80f);
         mMapSolid.put("hotel", (char) 0xf594);
@@ -505,6 +524,7 @@ public class FontawesomeLib {
         mMapSolid.put("hourglass-half", (char) 0xf252);
         mMapSolid.put("hourglass-start", (char) 0xf251);
         mMapSolid.put("house-damage", (char) 0xf6f1);
+        mMapSolid.put("house-user", (char) 0xf965);
         mMapSolid.put("hryvnia", (char) 0xf6f2);
         mMapSolid.put("i-cursor", (char) 0xf246);
         mMapSolid.put("ice-cream", (char) 0xf810);
@@ -538,6 +558,7 @@ public class FontawesomeLib {
         mMapSolid.put("language", (char) 0xf1ab);
         mMapSolid.put("laptop", (char) 0xf109);
         mMapSolid.put("laptop-code", (char) 0xf5fc);
+        mMapSolid.put("laptop-house", (char) 0xf966);
         mMapSolid.put("laptop-medical", (char) 0xf812);
         mMapSolid.put("laugh", (char) 0xf599);
         mMapSolid.put("laugh-beam", (char) 0xf59a);
@@ -567,6 +588,8 @@ public class FontawesomeLib {
         mMapSolid.put("long-arrow-alt-up", (char) 0xf30c);
         mMapSolid.put("low-vision", (char) 0xf2a8);
         mMapSolid.put("luggage-cart", (char) 0xf59d);
+        mMapSolid.put("lungs", (char) 0xf604);
+        mMapSolid.put("lungs-virus", (char) 0xf967);
         mMapSolid.put("magic", (char) 0xf0d0);
         mMapSolid.put("magnet", (char) 0xf076);
         mMapSolid.put("mail-bulk", (char) 0xf674);
@@ -618,6 +641,7 @@ public class FontawesomeLib {
         mMapSolid.put("mosque", (char) 0xf678);
         mMapSolid.put("motorcycle", (char) 0xf21c);
         mMapSolid.put("mountain", (char) 0xf6fc);
+        mMapSolid.put("mouse", (char) 0xf8cc);
         mMapSolid.put("mouse-pointer", (char) 0xf245);
         mMapSolid.put("mug-hot", (char) 0xf7b6);
         mMapSolid.put("music", (char) 0xf001);
@@ -656,6 +680,7 @@ public class FontawesomeLib {
         mMapSolid.put("pen-square", (char) 0xf14b);
         mMapSolid.put("pencil-alt", (char) 0xf303);
         mMapSolid.put("pencil-ruler", (char) 0xf5ae);
+        mMapSolid.put("people-arrows", (char) 0xf968);
         mMapSolid.put("people-carry", (char) 0xf4ce);
         mMapSolid.put("pepper-hot", (char) 0xf816);
         mMapSolid.put("percent", (char) 0xf295);
@@ -675,6 +700,7 @@ public class FontawesomeLib {
         mMapSolid.put("plane", (char) 0xf072);
         mMapSolid.put("plane-arrival", (char) 0xf5af);
         mMapSolid.put("plane-departure", (char) 0xf5b0);
+        mMapSolid.put("plane-slash", (char) 0xf969);
         mMapSolid.put("play", (char) 0xf04b);
         mMapSolid.put("play-circle", (char) 0xf144);
         mMapSolid.put("plug", (char) 0xf1e6);
@@ -698,6 +724,8 @@ public class FontawesomeLib {
         mMapSolid.put("print", (char) 0xf02f);
         mMapSolid.put("procedures", (char) 0xf487);
         mMapSolid.put("project-diagram", (char) 0xf542);
+        mMapSolid.put("pump-medical", (char) 0xf96a);
+        mMapSolid.put("pump-soap", (char) 0xf96b);
         mMapSolid.put("puzzle-piece", (char) 0xf12e);
         mMapSolid.put("qrcode", (char) 0xf029);
         mMapSolid.put("question", (char) 0xf128);
@@ -711,6 +739,7 @@ public class FontawesomeLib {
         mMapSolid.put("rainbow", (char) 0xf75b);
         mMapSolid.put("random", (char) 0xf074);
         mMapSolid.put("receipt", (char) 0xf543);
+        mMapSolid.put("record-vinyl", (char) 0xf8d9);
         mMapSolid.put("recycle", (char) 0xf1b8);
         mMapSolid.put("redo", (char) 0xf01e);
         mMapSolid.put("redo-alt", (char) 0xf2f9);
@@ -759,6 +788,7 @@ public class FontawesomeLib {
         mMapSolid.put("share-square", (char) 0xf14d);
         mMapSolid.put("shekel-sign", (char) 0xf20b);
         mMapSolid.put("shield-alt", (char) 0xf3ed);
+        mMapSolid.put("shield-virus", (char) 0xf96c);
         mMapSolid.put("ship", (char) 0xf21a);
         mMapSolid.put("shipping-fast", (char) 0xf48b);
         mMapSolid.put("shoe-prints", (char) 0xf54b);
@@ -794,6 +824,7 @@ public class FontawesomeLib {
         mMapSolid.put("snowflake", (char) 0xf2dc);
         mMapSolid.put("snowman", (char) 0xf7d0);
         mMapSolid.put("snowplow", (char) 0xf7d2);
+        mMapSolid.put("soap", (char) 0xf96e);
         mMapSolid.put("socks", (char) 0xf696);
         mMapSolid.put("solar-panel", (char) 0xf5ba);
         mMapSolid.put("sort", (char) 0xf0dc);
@@ -835,8 +866,11 @@ public class FontawesomeLib {
         mMapSolid.put("stop", (char) 0xf04d);
         mMapSolid.put("stop-circle", (char) 0xf28d);
         mMapSolid.put("stopwatch", (char) 0xf2f2);
+        mMapSolid.put("stopwatch-20", (char) 0xf96f);
         mMapSolid.put("store", (char) 0xf54e);
         mMapSolid.put("store-alt", (char) 0xf54f);
+        mMapSolid.put("store-alt-slash", (char) 0xf970);
+        mMapSolid.put("store-slash", (char) 0xf971);
         mMapSolid.put("stream", (char) 0xf550);
         mMapSolid.put("street-view", (char) 0xf21d);
         mMapSolid.put("strikethrough", (char) 0xf0cc);
@@ -897,6 +931,7 @@ public class FontawesomeLib {
         mMapSolid.put("toggle-on", (char) 0xf205);
         mMapSolid.put("toilet", (char) 0xf7d8);
         mMapSolid.put("toilet-paper", (char) 0xf71e);
+        mMapSolid.put("toilet-paper-slash", (char) 0xf972);
         mMapSolid.put("toolbox", (char) 0xf552);
         mMapSolid.put("tools", (char) 0xf7d9);
         mMapSolid.put("tooth", (char) 0xf5c9);
@@ -905,6 +940,7 @@ public class FontawesomeLib {
         mMapSolid.put("tractor", (char) 0xf722);
         mMapSolid.put("trademark", (char) 0xf25c);
         mMapSolid.put("traffic-light", (char) 0xf637);
+        mMapSolid.put("trailer", (char) 0xf941);
         mMapSolid.put("train", (char) 0xf238);
         mMapSolid.put("tram", (char) 0xf7da);
         mMapSolid.put("transgender", (char) 0xf224);
@@ -971,6 +1007,9 @@ public class FontawesomeLib {
         mMapSolid.put("video", (char) 0xf03d);
         mMapSolid.put("video-slash", (char) 0xf4e2);
         mMapSolid.put("vihara", (char) 0xf6a7);
+        mMapSolid.put("virus", (char) 0xf974);
+        mMapSolid.put("virus-slash", (char) 0xf975);
+        mMapSolid.put("viruses", (char) 0xf976);
         mMapSolid.put("voicemail", (char) 0xf897);
         mMapSolid.put("volleyball-ball", (char) 0xf45f);
         mMapSolid.put("volume-down", (char) 0xf027);
@@ -1055,6 +1094,7 @@ public class FontawesomeLib {
         mMapBrand.put("btc", (char) 0xf15a);
         mMapBrand.put("buffer", (char) 0xf837);
         mMapBrand.put("buromobelexperte", (char) 0xf37f);
+        mMapBrand.put("buy-n-large", (char) 0xf8a6);
         mMapBrand.put("canadian-maple-leaf", (char) 0xf785);
         mMapBrand.put("cc-amazon-pay", (char) 0xf42d);
         mMapBrand.put("cc-amex", (char) 0xf1f3);
@@ -1100,6 +1140,7 @@ public class FontawesomeLib {
         mMapBrand.put("cuttlefish", (char) 0xf38c);
         mMapBrand.put("d-and-d", (char) 0xf38d);
         mMapBrand.put("d-and-d-beyond", (char) 0xf6ca);
+        mMapBrand.put("dailymotion", (char) 0xf952);
         mMapBrand.put("dashcube", (char) 0xf210);
         mMapBrand.put("delicious", (char) 0xf1a5);
         mMapBrand.put("deploydog", (char) 0xf38e);
@@ -1142,6 +1183,7 @@ public class FontawesomeLib {
         mMapBrand.put("fedora", (char) 0xf798);
         mMapBrand.put("figma", (char) 0xf799);
         mMapBrand.put("firefox", (char) 0xf269);
+        mMapBrand.put("firefox-browser", (char) 0xf907);
         mMapBrand.put("first-order", (char) 0xf2b0);
         mMapBrand.put("first-order-alt", (char) 0xf50a);
         mMapBrand.put("firstdraft", (char) 0xf3a1);
@@ -1202,8 +1244,10 @@ public class FontawesomeLib {
         mMapBrand.put("houzz", (char) 0xf27c);
         mMapBrand.put("html5", (char) 0xf13b);
         mMapBrand.put("hubspot", (char) 0xf3b2);
+        mMapBrand.put("ideal", (char) 0xf913);
         mMapBrand.put("imdb", (char) 0xf2d8);
         mMapBrand.put("instagram", (char) 0xf16d);
+        mMapBrand.put("instagram-square", (char) 0xf955);
         mMapBrand.put("intercom", (char) 0xf7af);
         mMapBrand.put("internet-explorer", (char) 0xf26b);
         mMapBrand.put("invision", (char) 0xf7b0);
@@ -1243,6 +1287,7 @@ public class FontawesomeLib {
         mMapBrand.put("markdown", (char) 0xf60f);
         mMapBrand.put("mastodon", (char) 0xf4f6);
         mMapBrand.put("maxcdn", (char) 0xf136);
+        mMapBrand.put("mdb", (char) 0xf8ca);
         mMapBrand.put("medapps", (char) 0xf3c6);
         mMapBrand.put("medium", (char) 0xf23a);
         mMapBrand.put("medium-m", (char) 0xf3c7);
@@ -1250,9 +1295,11 @@ public class FontawesomeLib {
         mMapBrand.put("meetup", (char) 0xf2e0);
         mMapBrand.put("megaport", (char) 0xf5a3);
         mMapBrand.put("mendeley", (char) 0xf7b3);
+        mMapBrand.put("microblog", (char) 0xf91a);
         mMapBrand.put("microsoft", (char) 0xf3ca);
         mMapBrand.put("mix", (char) 0xf3cb);
         mMapBrand.put("mixcloud", (char) 0xf289);
+        mMapBrand.put("mixer", (char) 0xf956);
         mMapBrand.put("mizuni", (char) 0xf3cc);
         mMapBrand.put("modx", (char) 0xf285);
         mMapBrand.put("monero", (char) 0xf3d0);
@@ -1271,6 +1318,7 @@ public class FontawesomeLib {
         mMapBrand.put("openid", (char) 0xf19b);
         mMapBrand.put("opera", (char) 0xf26a);
         mMapBrand.put("optin-monster", (char) 0xf23c);
+        mMapBrand.put("orcid", (char) 0xf8d2);
         mMapBrand.put("osi", (char) 0xf41a);
         mMapBrand.put("page4", (char) 0xf3d7);
         mMapBrand.put("pagelines", (char) 0xf18c);
@@ -1287,6 +1335,7 @@ public class FontawesomeLib {
         mMapBrand.put("pied-piper-alt", (char) 0xf1a8);
         mMapBrand.put("pied-piper-hat", (char) 0xf4e5);
         mMapBrand.put("pied-piper-pp", (char) 0xf1a7);
+        mMapBrand.put("pied-piper-square", (char) 0xf91e);
         mMapBrand.put("pinterest", (char) 0xf0d2);
         mMapBrand.put("pinterest-p", (char) 0xf231);
         mMapBrand.put("pinterest-square", (char) 0xf0d3);
@@ -1326,6 +1375,7 @@ public class FontawesomeLib {
         mMapBrand.put("sellsy", (char) 0xf213);
         mMapBrand.put("servicestack", (char) 0xf3ec);
         mMapBrand.put("shirtsinbulk", (char) 0xf214);
+        mMapBrand.put("shopify", (char) 0xf957);
         mMapBrand.put("shopware", (char) 0xf5b5);
         mMapBrand.put("simplybuilt", (char) 0xf215);
         mMapBrand.put("sistrix", (char) 0xf3ee);
@@ -1362,6 +1412,7 @@ public class FontawesomeLib {
         mMapBrand.put("superpowers", (char) 0xf2dd);
         mMapBrand.put("supple", (char) 0xf3f9);
         mMapBrand.put("suse", (char) 0xf7d6);
+        mMapBrand.put("swift", (char) 0xf8e1);
         mMapBrand.put("symfony", (char) 0xf83d);
         mMapBrand.put("teamspeak", (char) 0xf4f9);
         mMapBrand.put("telegram", (char) 0xf2c6);
@@ -1383,7 +1434,9 @@ public class FontawesomeLib {
         mMapBrand.put("uber", (char) 0xf402);
         mMapBrand.put("ubuntu", (char) 0xf7df);
         mMapBrand.put("uikit", (char) 0xf403);
+        mMapBrand.put("umbraco", (char) 0xf8e8);
         mMapBrand.put("uniregistry", (char) 0xf404);
+        mMapBrand.put("unity", (char) 0xf949);
         mMapBrand.put("untappd", (char) 0xf405);
         mMapBrand.put("ups", (char) 0xf7e0);
         mMapBrand.put("usb", (char) 0xf287);
@@ -1432,8 +1485,7 @@ public class FontawesomeLib {
         mMapBrand.put("yoast", (char) 0xf2b1);
         mMapBrand.put("youtube", (char) 0xf167);
         mMapBrand.put("youtube-square", (char) 0xf431);
-        mMapBrand.put("zhihu", (char) 0xf63f);
-    }
+        mMapBrand.put("zhihu", (char) 0xf63f);    }
 
     private void loadRegular() {
         // Regular Icons
