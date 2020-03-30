@@ -29,5 +29,5 @@ dependencies {
     implementation 'com.android.support:recyclerview-v7:28.0.0'
 
 //    implementation project(path: ':fontawesomelib')
-    implementation 'com.yypbd.fontawesomelib:fontawesomelib:1.0.1'
+    implementation 'com.yypbd.fontawesomelib:fontawesomelib:1.0.2'
 }
