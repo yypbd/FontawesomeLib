@@ -12,9 +12,9 @@ It is based on Fontawesome 5
 
 | Fontawesome | This library |
 |-----------|-----------|
-| 5.10.1 | 1.0.1 |
-| 5.8.1 | 1.0.0 |
-| 5.8.1 | 0.0.1 |
+| [5.10.1](https://fontawesome.com/download) | 1.0.1 |
+| [5.8.1](https://fontawesome.com/download) | 1.0.0 |
+| [5.8.1](https://fontawesome.com/download) | 0.0.1 |
 
 
 ## Sample Screenshot
@@ -27,18 +27,26 @@ It is based on Fontawesome 5
 ## Code Example
 
 ```java
+// Initialize
+FontawesomeLib.getInstance().init(getAssets(), "fonts/fa-solid-900.ttf", "fonts/fa-regular-400.ttf", "fonts/fa-brands-400.ttf");
+
 // To get fontawesome icon text
 String text = FontawesomeLib.getInstance().getText(FontawesomeLib.FontType.TYPE_SOLID, "adjust");
-// text is 0xf042
+// -> text is 0xf042
 
 // To get typeface
 Typeface tf = FontawesomeLib.getInstance().getTypeface(FontawesomeLib.FontType.TYPE_SOLID);
-
 
 // To apply the fontawesome icon to a TextView or Button
 FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "adjust", buttonTest);
 FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "atlas", textViewTest);
 ```
+
+```kotlin
+
+
+```
+
 
 ## Installation
 
@@ -48,17 +56,15 @@ FontawesomeLib.getInstance().setIcon(FontawesomeLib.FontType.TYPE_SOLID, "atlas"
 ```gradle
 implementation 'com.yypbd.fontawesomelib:fontawesomelib:1.x.x'
 ```
-4. Initialize library.
-```
-FontawesomeLib.getInstance().init(getAssets(), "fonts/fa-solid-900.ttf", "fonts/fa-regular-400.ttf", "fonts/fa-brands-400.ttf");
-```
-5. View the sample app or code example.
+4. View the sample app or code example.
 
 
 
 ## Reference
 
 ### [Fontawesome Cheatsheet](https://fontawesome.com/cheatsheet)
+
+### [fontawesome Download](https://fontawesome.com/download)
 
 ### [TextDrawable used in SampleApp](https://github.com/devunwired/textdrawable)
 
